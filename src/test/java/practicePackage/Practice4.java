@@ -9,7 +9,9 @@ public class Practice4 {
 	
 @Test(invocationCount = 5)
 public void car(){
-System.out.println("Car");	
+System.out.println("Car");
+System.out.println("Carmela");
+
 }
 
 
