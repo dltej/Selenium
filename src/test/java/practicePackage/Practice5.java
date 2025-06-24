@@ -6,6 +6,8 @@ public class Practice5 {
 @Test
 public void SBI() {
 System.out.println("SBI");
+System.out.println("SBII");
+
 }
 @Test(groups = {"Run"})
 public void ICICI() {
