@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+
+  <listeners>
+    <listener class-name="practicePackage.MyListener"/>
+  </listeners>
+
+  <parameter name="username" value="admin"/>
+  <parameter name="password" value="12345"/>
+
+  <test name="Maths" thread-count="5" parallel="methods">
+    <classes>
+      <class name="practicePackage.Practice3"/>
+    </classes>
+  </test>
+
+  <test name="Vehicle" thread-count="5" parallel="methods">
+    <classes>
+      <class name="practicePackage.Practice4"/>
+    </classes>
+  </test>
+
+  <test name="Banks" thread-count="5" parallel="methods">
+    <classes>
+      <class name="practicePackage.Practice5"/>
+    </classes>
+  </test>
+
+</suite>

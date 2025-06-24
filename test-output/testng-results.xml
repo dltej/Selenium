@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-23T22:37:16 IST" name="Suite" finished-at="2025-06-23T22:37:16 IST" duration-ms="261">
+    <groups>
+      <group name="Running">
+        <method signature="Practice3.sub()[pri:2, instance:practicePackage.Practice3@411f53a0]" name="sub" class="practicePackage.Practice3"/>
+      </group> <!-- Running -->
+      <group name="Run">
+        <method signature="Practice3.multiply()[pri:1, instance:practicePackage.Practice3@411f53a0]" name="multiply" class="practicePackage.Practice3"/>
+        <method signature="Practice5.ICICI()[pri:0, instance:practicePackage.Practice5@58a9760d]" name="ICICI" class="practicePackage.Practice5"/>
+      </group> <!-- Run -->
+    </groups>
+    <test started-at="2025-06-23T22:37:16 IST" name="Maths" finished-at="2025-06-23T22:37:16 IST" duration-ms="126">
+      <class name="practicePackage.Practice3">
+        <test-method is-config="true" signature="cookiesclear()[pri:0, instance:practicePackage.Practice3@411f53a0]" started-at="2025-06-23T22:37:16 IST" name="cookiesclear" finished-at="2025-06-23T22:37:16 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cookiesclear -->
+        <test-method is-config="true" signature="cookiesclear()[pri:0, instance:practicePackage.Practice3@411f53a0]" started-at="2025-06-23T22:37:16 IST" name="cookiesclear" finished-at="2025-06-23T22:37:16 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cookiesclear -->
+        <test-method is-config="true" signature="cookiesclear()[pri:0, instance:practicePackage.Practice3@411f53a0]" started-at="2025-06-23T22:37:16 IST" name="cookiesclear" finished-at="2025-06-23T22:37:16 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cookiesclear -->
+        <test-method signature="sub()[pri:2, instance:practicePackage.Practice3@411f53a0]" started-at="2025-06-23T22:37:16 IST" name="sub" finished-at="2025-06-23T22:37:16 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
+        <test-method signature="multiply()[pri:1, instance:practicePackage.Practice3@411f53a0]" started-at="2025-06-23T22:37:16 IST" name="multiply" finished-at="2025-06-23T22:37:16 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiply -->
+        <test-method signature="quotient()[pri:0, instance:practicePackage.Practice3@411f53a0]" started-at="2025-06-23T22:37:16 IST" name="quotient" finished-at="2025-06-23T22:37:16 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quotient -->
+        <test-method is-config="true" signature="cachieclear()[pri:0, instance:practicePackage.Practice3@411f53a0]" started-at="2025-06-23T22:37:16 IST" name="cachieclear" finished-at="2025-06-23T22:37:16 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cachieclear -->
+        <test-method is-config="true" signature="cachieclear()[pri:0, instance:practicePackage.Practice3@411f53a0]" started-at="2025-06-23T22:37:16 IST" name="cachieclear" finished-at="2025-06-23T22:37:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cachieclear -->
+        <test-method is-config="true" signature="cachieclear()[pri:0, instance:practicePackage.Practice3@411f53a0]" started-at="2025-06-23T22:37:16 IST" name="cachieclear" finished-at="2025-06-23T22:37:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cachieclear -->
+        <test-method is-config="true" signature="cookiesclear()[pri:0, instance:practicePackage.Practice3@411f53a0]" started-at="2025-06-23T22:37:16 IST" name="cookiesclear" finished-at="2025-06-23T22:37:16 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cookiesclear -->
+        <test-method signature="remainder()[pri:0, instance:practicePackage.Practice3@411f53a0]" started-at="2025-06-23T22:37:16 IST" name="remainder" finished-at="2025-06-23T22:37:16 IST" depends-on-methods="practicePackage.Practice3.quotient" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remainder -->
+        <test-method is-config="true" signature="cachieclear()[pri:0, instance:practicePackage.Practice3@411f53a0]" started-at="2025-06-23T22:37:16 IST" name="cachieclear" finished-at="2025-06-23T22:37:16 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cachieclear -->
+      </class> <!-- practicePackage.Practice3 -->
+    </test> <!-- Maths -->
+    <test started-at="2025-06-23T22:37:16 IST" name="Vehicle" finished-at="2025-06-23T22:37:16 IST" duration-ms="33">
+      <class name="practicePackage.Practice4">
+        <test-method signature="bike()[pri:0, instance:practicePackage.Practice4@3c3d9b6b]" started-at="2025-06-23T22:37:16 IST" name="bike" finished-at="2025-06-23T22:37:16 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bike -->
+        <test-method signature="car()[pri:0, instance:practicePackage.Practice4@3c3d9b6b]" started-at="2025-06-23T22:37:16 IST" name="car" finished-at="2025-06-23T22:37:16 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- car -->
+        <test-method signature="Aeroplane()[pri:0, instance:practicePackage.Practice4@3c3d9b6b]" started-at="2025-06-23T22:37:16 IST" name="Aeroplane" finished-at="2025-06-23T22:37:16 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aeroplane -->
+        <test-method signature="car()[pri:0, instance:practicePackage.Practice4@3c3d9b6b]" started-at="2025-06-23T22:37:16 IST" name="car" finished-at="2025-06-23T22:37:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- car -->
+        <test-method signature="car()[pri:0, instance:practicePackage.Practice4@3c3d9b6b]" started-at="2025-06-23T22:37:16 IST" name="car" finished-at="2025-06-23T22:37:16 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- car -->
+        <test-method signature="car()[pri:0, instance:practicePackage.Practice4@3c3d9b6b]" started-at="2025-06-23T22:37:16 IST" name="car" finished-at="2025-06-23T22:37:16 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- car -->
+        <test-method signature="car()[pri:0, instance:practicePackage.Practice4@3c3d9b6b]" started-at="2025-06-23T22:37:16 IST" name="car" finished-at="2025-06-23T22:37:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- car -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:practicePackage.Practice4@3c3d9b6b]" started-at="2025-06-23T22:37:16 IST" name="loginTest" finished-at="2025-06-23T22:37:16 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- practicePackage.Practice4 -->
+    </test> <!-- Vehicle -->
+    <test started-at="2025-06-23T22:37:16 IST" name="Banks" finished-at="2025-06-23T22:37:16 IST" duration-ms="15">
+      <class name="practicePackage.Practice5">
+        <test-method signature="KOTAK()[pri:0, instance:practicePackage.Practice5@58a9760d]" started-at="2025-06-23T22:37:16 IST" name="KOTAK" finished-at="2025-06-23T22:37:16 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KOTAK -->
+        <test-method signature="SBI()[pri:0, instance:practicePackage.Practice5@58a9760d]" started-at="2025-06-23T22:37:16 IST" name="SBI" finished-at="2025-06-23T22:37:16 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SBI -->
+        <test-method signature="ICICI()[pri:0, instance:practicePackage.Practice5@58a9760d]" started-at="2025-06-23T22:37:16 IST" name="ICICI" finished-at="2025-06-23T22:37:16 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ICICI -->
+      </class> <!-- practicePackage.Practice5 -->
+    </test> <!-- Banks -->
+  </suite> <!-- Suite -->
+</testng-results>
