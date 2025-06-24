@@ -9,6 +9,8 @@ public class Practice8 {
     @Test
     public void testPass() {
         System.out.println("Running testPass...");
+        System.out.println("Running tested");
+        
     }
 
     @Test
