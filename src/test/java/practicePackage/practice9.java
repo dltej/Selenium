@@ -13,28 +13,25 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import lakshmitej.pageobjects.Landingpage;
 
-public class StandAloneTest {
+public class practice9 {
 
     public static void main(String[] args) throws InterruptedException {
 
         String productName = "ZARA COAT 3";
-     
+
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
 
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        Landingpage landingpage = new Landingpage(driver);
-        landingpage.goTo();
-       // driver.get("https://rahulshettyacademy.com/client");
+
+        driver.get("https://rahulshettyacademy.com/client");
 
         // Login
-        landingpage.loginApplication("luckytej04@gmail.com", "10March1998");
-        //driver.findElement(By.cssSelector("input[type='email']")).sendKeys("luckytej04@gmail.com");
-       // driver.findElement(By.cssSelector("input[type='password']")).sendKeys("10March1998");
-       // driver.findElement(By.cssSelector("input[name='login']")).click();
+        driver.findElement(By.cssSelector("input[type='email']")).sendKeys("luckytej04@gmail.com");
+        driver.findElement(By.cssSelector("input[type='password']")).sendKeys("10March1998");
+        driver.findElement(By.cssSelector("input[name='login']")).click();
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".mb-3")));
