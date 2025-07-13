@@ -1,4 +1,4 @@
-package practicePackage;
+package lakshmitej.tests;
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;

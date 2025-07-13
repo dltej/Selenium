@@ -1,8 +1,9 @@
-package practicePackage;
+package lakshmitej.tests;
 
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-import practicePackage.MyListener;
+
+import lakshmitej.tests.MyListener;
 
 @Listeners(MyListener.class)
 public class Practice8 {

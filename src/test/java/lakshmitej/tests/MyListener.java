@@ -1,4 +1,4 @@
-package practicePackage;
+package lakshmitej.tests;
 
 import org.testng.ITestListener;
 import org.testng.ITestResult;
