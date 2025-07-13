@@ -1,4 +1,4 @@
-package practicePackage;
+package lakshmitej.tests;
 
 import java.time.Duration;
 

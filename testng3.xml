@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Automation Test Suite" parallel="tests" thread-count="5" verbose="2">
+
+  <!-- Test to validate order submission flow -->
+  <test name="Submit Order Test">
+    <classes>
+      <class name="lakshmitej.tests.SubitOrderTest"/>
+    </classes>
+  </test>
+
+  <!-- Test to verify error messages and edge cases -->
+  <test name="Error Validations">
+    <classes>
+      <class name="lakshmitej.tests.Errorvalidations"/>
+    </classes>
+  </test>
+
+</suite>

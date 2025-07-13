@@ -1,5 +1,5 @@
 
-package practicePackage;
+package lakshmitej.tests;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.Parameters;
